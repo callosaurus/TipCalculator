@@ -11,7 +11,7 @@
 @interface TipModel : NSObject
 
 @property (nonatomic) float billAmount;
-@property (nonatomic) int tipPercentage;
+@property (nonatomic) float tipPercentage;
 
 -(float)calculateTipAmount;
 
