@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TipModel.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *billAmountTextField;
+@property (weak, nonatomic) IBOutlet UILabel *tipAmountLabel;
 
 @end
 
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)calculateTip:(id)sender {
+    float newTipAmount = ([self.billAmountTextField.text floatValue] * 0.15);
+    NSString *newTipAsString = [NSString stringWithFormat:@"%0.2f", newTipAmount];
+    self.tipAmountLabel.text = newTipAsString;
 }
 
 

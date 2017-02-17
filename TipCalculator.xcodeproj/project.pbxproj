@@ -13,6 +13,7 @@
 		3FB1383A1E57869D00989426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB138381E57869D00989426 /* Main.storyboard */; };
 		3FB1383C1E57869D00989426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1383B1E57869D00989426 /* Assets.xcassets */; };
 		3FB1383F1E57869D00989426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB1383D1E57869D00989426 /* LaunchScreen.storyboard */; };
+		3FB138481E57878E00989426 /* TipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB138471E57878E00989426 /* TipModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3FB1383B1E57869D00989426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB1383E1E57869D00989426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FB138401E57869D00989426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB138461E57878E00989426 /* TipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipModel.h; sourceTree = "<group>"; };
+		3FB138471E57878E00989426 /* TipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +66,8 @@
 				3FB138351E57869D00989426 /* ViewController.h */,
 				3FB138361E57869D00989426 /* ViewController.m */,
 				3FB138381E57869D00989426 /* Main.storyboard */,
-				3FB1383B1E57869D00989426 /* Assets.xcassets */,
-				3FB1383D1E57869D00989426 /* LaunchScreen.storyboard */,
-				3FB138401E57869D00989426 /* Info.plist */,
+				3FB138461E57878E00989426 /* TipModel.h */,
+				3FB138471E57878E00989426 /* TipModel.m */,
 				3FB1382F1E57869D00989426 /* Supporting Files */,
 			);
 			path = TipCalculator;
@@ -74,6 +76,9 @@
 		3FB1382F1E57869D00989426 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FB1383B1E57869D00989426 /* Assets.xcassets */,
+				3FB1383D1E57869D00989426 /* LaunchScreen.storyboard */,
+				3FB138401E57869D00989426 /* Info.plist */,
 				3FB138301E57869D00989426 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB138481E57878E00989426 /* TipModel.m in Sources */,
 				3FB138371E57869D00989426 /* ViewController.m in Sources */,
 				3FB138341E57869D00989426 /* AppDelegate.m in Sources */,
 				3FB138311E57869D00989426 /* main.m in Sources */,
